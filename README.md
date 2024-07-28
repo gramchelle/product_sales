@@ -13,5 +13,7 @@ Steps for the project:
 5. Can you estimate initial value(s) for the metric based on the current data
 6. Final summary including recommendations that the business should undertake
 
+### Dataset
+
   The Data : product_sales.csv
 | Column | Data Type | Description |------------|-------------------|-------------------------------------| | 'week' | Numeric | Week sale was made,counted as weeks since product launch. | | 'sales_method' | Character | Which of the three sales methods were used for that customer. | | 'customer_id' | Character | Unique identifier for the customer. | | 'nb_sold' | Numeric | Number of new products sold. | | 'revenue' | Numeric | Revenue from the sales, rounded to 2 decimal places. | | 'years_as_customer' | Numeric | Number of years customer has been buying from the company (founded in 1984). | | 'nb_site_visits' | Numeric | Number of times the customer has visited our website in the last 6 months. | | 'state' | Character | Location of the customer i.e. where orders are shipped. |
